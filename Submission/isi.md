@@ -1,0 +1,1 @@
+_tempat pengumpulan_
