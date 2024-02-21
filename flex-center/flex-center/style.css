@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+}
+
+.box {
+    font-weight: bold;
+    text-align: center;
+    width: 15rem;
+    height: 15rem;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+    height: auto;
+}
