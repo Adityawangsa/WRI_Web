@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+/* This code just for home page */
+.container {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-0.5%, -5%);
+}
+
+.box {
+    font-weight: bold;
+    text-align: center;
+    width: 30rem;
+    height: 15rem;
+}
+
+img {
+    max-width: 100%;
+    width: 200px;
+    object-fit: cover;
+    height: auto;
+}
