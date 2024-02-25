@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    background: #eee;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    background: white;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    display: flex;
+    justify-content: center;
+}
+
+/* Tengahin class container secara horizontal dan kasih jarak untuk elemen didalamnya */
+.container {
+    width: 75%;
+    height: 8em;
+}
+
+/* Tengahin logonya secara horizontal dan vertikal */
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    margin: 10px 0;
+}
+
+img {
+    max-width: 100%;
+    width: 200px;
+    object-fit: cover;
+    height: auto;
+}
+
+/* Tengahin secara horizontal class navbar */
+a {
+    position: relative;
+    text-decoration: none;
+    color: #0a101f;
+    font-weight: 500;
+    overflow: hidden;
+}
+
+/* Terakhir, kasih gap sebesar 32px untuk setiap menu */
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 32px;
+}
+
+a::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -10px;
+    left: 0;
+    background-color: #4B0082;
+    transition: width 0.3s;
+}
+
+.links a:hover::before {
+    width: 100%;
+    margin: 0;
+}
